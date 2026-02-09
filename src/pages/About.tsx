@@ -56,56 +56,71 @@ function About() {
       </section>
 
       {/* ================= OUR STORY ================= */}
-      <section className="py-14 px-4">
-        <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+<section className="py-14 px-4">
+  <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center">
 
-          <div>
-            <h2 className="text-2xl md:text-3xl font-bold mb-4">Our Story</h2>
-            <div className="space-y-4 text-gray-700 text-sm md:text-base leading-relaxed">
-              <p>
-                Founded in 2023, EliteCrows Infotech emerged with a vision to empower
-                businesses across Tamil Nadu through innovative technology solutions.
-              </p>
-              <p>
-                We deliver SEO optimized websites, software development, AI chat systems,
-                cloud customization, and industrial applications using modern technologies.
-              </p>
-              <p>
-                Our focus is on long-term partnerships and measurable business growth.
-              </p>
-            </div>
-          </div>
+    <div>
+      <h2 className="text-2xl md:text-3xl font-bold mb-4">
+        Our Story
+      </h2>
 
-          <div className="bg-gray-50 p-6 rounded-lg border border-black/20">
-            <div className="space-y-6">
-              <div className="flex gap-4">
-                <div className="bg-black text-white p-3 rounded-lg">
-                  <Target size={26} />
-                </div>
-                <div>
-                  <h3 className="font-semibold mb-1">Our Mission</h3>
-                  <p className="text-sm text-gray-700">
-                    Deliver cutting-edge technology solutions for digital excellence.
-                  </p>
-                </div>
-              </div>
+      <div className="space-y-4 text-gray-700 text-sm md:text-base leading-relaxed">
+        <p>
+          Founded in 2023, <strong>EliteCrows Infotech</strong> is a next-generation
+          IT solutions and software development company focused on helping businesses
+          grow through technology-driven innovation.
+        </p>
 
-              <div className="flex gap-4">
-                <div className="bg-black text-white p-3 rounded-lg">
-                  <Eye size={26} />
-                </div>
-                <div>
-                  <h3 className="font-semibold mb-1">Our Vision</h3>
-                  <p className="text-sm text-gray-700">
-                    Become Tamil Nadu’s most trusted technology partner.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+        <p>
+          We specialize in <strong>SEO-optimized website development</strong>,
+          custom software solutions, AI-powered chat systems, cloud integration,
+          and scalable enterprise applications built with modern, secure technologies.
+        </p>
 
-        </div>
-      </section>
+        <p>
+          Our approach is centered on performance, reliability, and long-term
+          partnerships—delivering measurable results that accelerate digital
+          transformation and business success.
+        </p>
+      </div>
+    </div>
+
+    <div className="bg-gray-50 p-6 rounded-lg border border-black/20">
+<div className="flex gap-4">
+  <div className="bg-green-600 text-white p-3 rounded-lg">
+    <Target size={26} />
+  </div>
+  <div>
+    <h3 className="font-semibold mb-1">Our Mission</h3>
+    <p className="text-sm text-gray-700 leading-relaxed">
+      To empower businesses with reliable, scalable, and innovative technology
+      solutions that drive digital growth. We focus on delivering high-performance
+      web development, custom software, AI-driven systems, and cloud solutions
+      that create measurable business impact.
+    </p>
+  </div>
+</div>
+
+<div className="flex gap-4 mt-3">
+  <div className="bg-blue-600 text-white p-3  rounded-lg">
+    <Eye size={26} />
+  </div>
+  <div>
+    <h3 className="font-semibold mb-1">Our Vision</h3>
+    <p className="text-sm text-gray-700 leading-relaxed">
+      To become a globally trusted technology partner recognized for excellence
+      in software development and digital innovation. We aim to build long-term
+      partnerships by delivering future-ready solutions that help businesses
+      stay competitive in an evolving digital world.
+    </p>
+  </div>
+</div>
+
+    </div>
+
+  </div>
+</section>
+
 
       {/* ================= CORE VALUES ================= */}
       <section className="py-14 px-4 bg-black text-white">
