@@ -11,12 +11,12 @@ function Contact() {
     {
       icon: <Mail size={28} />,
       title: "Email",
-      details: ["info@elitecrows.com", "support@elitecrows.com"],
+      details: ["info@elitecrows.com"],
     },
     {
       icon: <Phone size={28} />,
       title: "Phone",
-      details: ["+91 1234567890", "+91 0987654321"],
+      details: ["+91 1234567890"],
     },
     {
       icon: <MapPin size={28} />,
