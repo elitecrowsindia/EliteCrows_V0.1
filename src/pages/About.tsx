@@ -1,4 +1,6 @@
 import { Target, Eye, Heart, Users, Lightbulb, Zap } from "lucide-react";
+import HOB from "../asserts/HOB.jpeg";
+import HOO from "../asserts/HOO.jpeg";
 
 function About() {
   const values = [
@@ -27,10 +29,8 @@ function About() {
   return (
     <div className="bg-white">
 
-      {/* ================= HERO (Same as Home Style) ================= */}
-     <section className="relative min-h-[50vh] flex items-center justify-center text-white px-4 overflow-hidden">
-
-        {/* Background Image */}
+      {/* ================= HERO ================= */}
+      <section className="relative min-h-[50vh] flex items-center justify-center text-white px-4 overflow-hidden">
         <div
           className="absolute inset-0"
           style={{
@@ -40,11 +40,8 @@ function About() {
             backgroundPosition: "center",
           }}
         />
-
-        {/* Overlay */}
         <div className="absolute inset-0 bg-black/60"></div>
 
-        {/* Content */}
         <div className="relative z-10 max-w-4xl text-center">
           <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold mb-4">
             About EliteCrows Infotech
@@ -56,71 +53,65 @@ function About() {
       </section>
 
       {/* ================= OUR STORY ================= */}
-<section className="py-14 px-4">
-  <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+      <section className="py-14 px-4">
+        <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center">
 
-    <div>
-      <h2 className="text-2xl md:text-3xl font-bold mb-4">
-        Our Story
-      </h2>
+          <div>
+            <h2 className="text-2xl md:text-3xl font-bold mb-4">
+              Our Story
+            </h2>
 
-      <div className="space-y-4 text-gray-700 text-sm md:text-base leading-relaxed">
-        <p>
-          Founded in 2023, <strong>EliteCrows Infotech</strong> is a next-generation
-          IT solutions and software development company focused on helping businesses
-          grow through technology-driven innovation.
-        </p>
+            <div className="space-y-4 text-gray-700 text-sm md:text-base leading-relaxed">
+              <p>
+                Founded in 2023, <strong>EliteCrows Infotech</strong> is a next-generation
+                IT solutions and software development company focused on helping businesses
+                grow through technology-driven innovation.
+              </p>
 
-        <p>
-          We specialize in <strong>SEO-optimized website development</strong>,
-          custom software solutions, AI-powered chat systems, cloud integration,
-          and scalable enterprise applications built with modern, secure technologies.
-        </p>
+              <p>
+                We specialize in <strong>SEO-optimized website development</strong>,
+                custom software solutions, AI-powered chat systems, cloud integration,
+                and scalable enterprise applications built with modern, secure technologies.
+              </p>
 
-        <p>
-          Our approach is centered on performance, reliability, and long-term
-          partnerships—delivering measurable results that accelerate digital
-          transformation and business success.
-        </p>
-      </div>
-    </div>
+              <p>
+                Our approach is centered on performance, reliability, and long-term
+                partnerships—delivering measurable results that accelerate digital
+                transformation and business success.
+              </p>
+            </div>
+          </div>
 
-    <div className="bg-gray-50 p-6 rounded-lg border border-black/20">
-<div className="flex gap-4">
-  <div className="bg-green-600 text-white p-3 rounded-lg">
-    <Target size={26} />
-  </div>
-  <div>
-    <h3 className="font-semibold mb-1">Our Mission</h3>
-    <p className="text-sm text-gray-700 leading-relaxed">
-      To empower businesses with reliable, scalable, and innovative technology
-      solutions that drive digital growth. We focus on delivering high-performance
-      web development, custom software, AI-driven systems, and cloud solutions
-      that create measurable business impact.
-    </p>
-  </div>
-</div>
+          <div className="bg-gray-50 p-6 rounded-lg border border-black/20">
+            <div className="flex gap-4">
+              <div className="bg-green-600 text-white p-3 rounded-lg">
+                <Target size={26} />
+              </div>
+              <div>
+                <h3 className="font-semibold mb-1">Our Mission</h3>
+                <p className="text-sm text-gray-700 leading-relaxed">
+                  To empower businesses with reliable, scalable, and innovative technology
+                  solutions that drive digital growth.
+                </p>
+              </div>
+            </div>
 
-<div className="flex gap-4 mt-3">
-  <div className="bg-blue-600 text-white p-3  rounded-lg">
-    <Eye size={26} />
-  </div>
-  <div>
-    <h3 className="font-semibold mb-1">Our Vision</h3>
-    <p className="text-sm text-gray-700 leading-relaxed">
-      To become a globally trusted technology partner recognized for excellence
-      in software development and digital innovation. We aim to build long-term
-      partnerships by delivering future-ready solutions that help businesses
-      stay competitive in an evolving digital world.
-    </p>
-  </div>
-</div>
+            <div className="flex gap-4 mt-3">
+              <div className="bg-blue-600 text-white p-3  rounded-lg">
+                <Eye size={26} />
+              </div>
+              <div>
+                <h3 className="font-semibold mb-1">Our Vision</h3>
+                <p className="text-sm text-gray-700 leading-relaxed">
+                  To become a globally trusted technology partner recognized for excellence
+                  in software development and digital innovation.
+                </p>
+              </div>
+            </div>
+          </div>
 
-    </div>
-
-  </div>
-</section>
-
+        </div>
+      </section>
 
       {/* ================= CORE VALUES ================= */}
       <section className="py-14 px-4 bg-black text-white">
@@ -160,6 +151,60 @@ function About() {
             <div className="text-3xl font-bold">24/7</div>
             <p className="text-sm text-gray-600">Support</p>
           </div>
+        </div>
+      </section>
+
+      {/* ================= LEADERSHIP TEAM ================= */}
+      <section className="py-14 px-4 bg-white">
+        <div className="max-w-7xl mx-auto text-center mb-10">
+          <h2 className="text-2xl md:text-3xl font-bold mb-2">
+            Our Leadership
+          </h2>
+          <p className="text-sm md:text-base text-gray-600">
+            Meet the people driving our vision and growth
+          </p>
+        </div>
+
+        <div className="max-w-5xl mx-auto grid sm:grid-cols-2 gap-8">
+
+          <div className="bg-gray-50 rounded-xl p-6 border hover:shadow-lg transition text-center">
+            <img
+              src={HOO}
+              alt="Pugal"
+              className="w-32 h-32 mx-auto rounded-full object-cover border-4 border-black"
+            />
+            <h3 className="mt-4 text-lg font-semibold">Pugal</h3>
+            <p className="text-sm text-gray-500 mb-3">Head of Operations</p>
+
+            <a
+              href="https://www.linkedin.com/in/techiepugal/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 text-sm font-medium hover:underline"
+            >
+              View LinkedIn
+            </a>
+          </div>
+
+          <div className="bg-gray-50 rounded-xl p-6 border hover:shadow-lg transition text-center">
+            <img
+              src={HOB}
+              alt="Dharanish"
+              className="w-32 h-32 mx-auto rounded-full object-cover border-4 border-black"
+            />
+            <h3 className="mt-4 text-lg font-semibold">Dharanish</h3>
+            <p className="text-sm text-gray-500 mb-3">Head of Business</p>
+
+            <a
+              href="https://www.linkedin.com/in/dharanish-azhagesan-859797253/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 text-sm font-medium hover:underline"
+            >
+              View LinkedIn
+            </a>
+          </div>
+
         </div>
       </section>
 
