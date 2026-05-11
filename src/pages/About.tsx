@@ -1,6 +1,6 @@
 import { Target, Eye, Heart, Users, Lightbulb, Zap } from "lucide-react";
-import HOB from "../asserts/HOB.jpeg";
-import HOO from "../asserts/HOO.jpeg";
+import HOB from "../../public/HOB.jpeg";
+import HOO from "../../public/HOO.jpeg";
 
 function About() {
   const values = [
